@@ -14,9 +14,9 @@ class dbConnection {
          console.log("connection");
         try {
                 this.connection = await this.oracledb.getConnection({
-                user: "ora_kyu16",
-                password: "a70917505",
-                connectString: "dbhost.students.cs.ubc.ca:1522/stu",
+                user: "",
+                password: "",
+                connectString: "",
                     autoCommit: true
 
             });
